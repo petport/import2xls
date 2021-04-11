@@ -31,3 +31,13 @@ Options:
 Basic Usage:
 Options --master_file, --input_file and --convert_xls2xlsx expect path to the desired file, or just the file name if you are working at the desired directory.
 
+Common use case examples:
+
+python xls_handler.py --master_file dummy_xlsx.xlsx --output_file output.csv --master_ranges A1:B15
+The example above, selects the data located in the range A1 to B15 of file dummy_xlsx.xlsx and exports it in an .csv file.
+
+python main.py --master_file dummy_xlsx.xlsx --master_ranges A17:B19 --input_file test_input_file.xlsx --input_file_ranges F12:G14
+The example above specifies the data that needs to be imported from an input file (from cell F12 to G14), and copies it to the specified cells of the master_file.
+
+python main.py --convert_xls2xlsx dummy_xls.xls new_xlsx.xlsx
+The example above converts an .xls file to a .xlsx file. 
