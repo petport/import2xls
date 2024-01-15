@@ -1,5 +1,5 @@
 # import2xls
-Easy to use command line based script to import and export data - to and from - xlsx files. The script is implemented to fullfil some specific use cases.
+Easy to use command line based script to import and export data - to and from - .xlsx files. The script is implemented to fullfil some specific use cases.
 - To extract specific data from an xlsx file (specified by the --master_file option) and put it in a new file under csv format. New file's name is specified 
 by the --output_file option.
 - To select specific data from a file (--input_file) and place them in the desired position in another file (--master_file)
